@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "[OGRU] DataTables BB Code converter",
+    "description": "This addon converts DataTables BB Code to native XF 2.x tables",
+    "version_id": 1,
+    "version_string": "1.0.0 Alpha",
+    "dev": "SAS",
+    "dev_url": "https://www.old-games.ru",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": [],
+    "icon": "fa-table"
+}

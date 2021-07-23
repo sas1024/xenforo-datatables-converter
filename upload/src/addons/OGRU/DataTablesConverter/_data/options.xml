@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="ogruDataTablesSeparator" edit_format="checkbox" data_type="array">
+    <default_value>{"comma":false,"pipe":"1","tab":false}</default_value>
+    <edit_format_params>comma=Comma
+pipe=Pipe
+tab=Tab</edit_format_params>
+    <sub_options>comma
+pipe
+tab</sub_options>
+    <relation group_id="ogru_datatables_converter" display_order="1"/>
+  </option>
+</options>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="option.ogruDataTablesSeparator" version_id="1" version_string="1.0.0 Alpha"><![CDATA[Column Separator(s)]]></phrase>
+  <phrase title="option_explain.ogruDataTablesSeparator" version_id="1" version_string="1.0.0 Alpha"><![CDATA[Choose your DataTables BB Code tables separator]]></phrase>
+  <phrase title="option_group.ogru_datatables_converter" version_id="1" version_string="1.0.0 Alpha"><![CDATA[[OGRU] DataTables BB Code Converter]]></phrase>
+  <phrase title="option_group_description.ogru_datatables_converter" version_id="1" version_string="1.0.0 Alpha"><![CDATA[DataTables BB Code converter settings]]></phrase>
+</phrases>
