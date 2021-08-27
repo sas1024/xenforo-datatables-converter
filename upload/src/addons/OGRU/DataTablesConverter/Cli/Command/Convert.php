@@ -108,20 +108,18 @@
             }
 
             $haveHeader = strpos( strtolower( $input[0] ), '[table=head]' );
-            if ( $haveHeader !== false ) {
-                $headerRow     = $rows[0];
-                $headerColumns = [];
-                foreach ( $headerRow as $column ) {
-                    $headerColumns[] = sprintf( '[B]%s[/B]', $column );
-                }
-                $rows[0] = $headerColumns;
-            }
 
             $out = "[TABLE]";
-            foreach ( $rows as $row ) {
+            foreach ( $rows as $i => $row ) {
                 $out .= '[TR]';
-                foreach ( $row as $column ) {
-                    $out .= '[TD]' . $column . '[/TD]';
+                if ($haveHeader !== false && $i == 0) {
+                    foreach ( $row as $column ) {
+                        $out .= '[TH]' . $column . '[/TH]';
+                    }
+                } else {
+                    foreach ($row as $column) {
+                        $out .= '[TD]' . $column . '[/TD]';
+                    }
                 }
                 $out .= "[/TR]\r\n";
             }
